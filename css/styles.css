@@ -52,6 +52,8 @@ ul {
 .logo-dark {
   color: #2e2f42;
   line-height: 1.17;
+
+  margin-right: 76px;
 }
 
 .logo-light {
@@ -78,6 +80,9 @@ ul {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+
+  display: flex;
+  gap: 40px;
 }
 
 .link-contacts {
@@ -104,6 +109,8 @@ ul {
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: #ffffff;
+
+  max-width: 496px;
 }
 .btn-order {
   background-color: #4d5ae5;
@@ -112,11 +119,27 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn-order:hover,
 .btn-order:focus {
   background-color: #404bbf;
+}
+
+/* main */
+.services-section {
+  padding: 120px 0 120px;
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
 }
 
 .section-title {
@@ -207,4 +230,20 @@ ul {
   padding-right: 15px;
   margin-left: 72px;
   margin-right: 72px;
+}
+
+.header-container {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  margin: 0 auto;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.main-section {
+  padding: 188px 0 188px;
 }
