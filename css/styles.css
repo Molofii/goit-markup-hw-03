@@ -33,9 +33,7 @@ ul {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -43,7 +41,12 @@ ul {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav {
@@ -104,15 +107,6 @@ ul {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-
-  display: flex;
-}
-
-.contacts-list {
-  display: flex;
-  gap: 40px;
-  margin-left: 256px;
-  padding: 24px 0;
 }
 
 .link-contacts {
@@ -120,6 +114,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.contacts-list {
+  gap: 40px;
+  display: flex;
+  margin-left: 250px;
 }
 
 .contacts-info .link-contacts:hover,
@@ -182,7 +182,6 @@ ul {
 
 .visually-hidden {
   visibility: hidden;
-  display: none;
 }
 
 .services-item {
@@ -296,6 +295,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
